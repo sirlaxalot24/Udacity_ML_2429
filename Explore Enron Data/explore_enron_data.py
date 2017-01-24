@@ -24,11 +24,28 @@ pd.set_option("display.max_rows", 1000)
 
 enron_data = pickle.load(open(r'final_project_dataset.pkl', "r"))
 mailDF = pd.DataFrame(enron_data).T
+mailDF = mailDF.reset_index()
 
-pprint(enron_data["SKILLING JEFFREY K"])
+salDF = mailDF[['index', 'total_payments']][mailDF['total_payments'] == "NaN"]
+salDF['Split Name'] = salDF['index'].str.split()
+salDF["Full Name"] = ""
+# salDF = salDF.reindex()
 
-# print mailDF
+for row in salDF.index:
+    salDF['Full Name'][row] = salDF['Split Name'][row][0] + " " + salDF['Split Name'][row][1]
 
-# names = pd.DataFrame.from_csv('poi_names.txt', )
-# print names
-# print names.shape
+print len(mailDF['poi'][mailDF['poi'] == True])
+
+
+names = pd.read_csv('poi_names.txt', header=None, delim_whitespace=True, names=("Y/N", "Last Name", "First Name"))
+names['Full Name'] = names['Last Name'] + "" + names["First Name"]
+names['Full Name'] = names['Full Name'].str.replace(",", " ")
+poi = names['Full Name'].str.upper()
+
+print poi
+
+poiSal = salDF.isin(poi)
+
+print poiSal
+
+# print names.shape, names.columns
