@@ -24,7 +24,8 @@ data = featureFormat(data_dict, features)
 # I added this pandas dataframe to explore the dataset
 dataDF = pd.DataFrame(data_dict)
 dataDF = dataDF.transpose().reset_index()
-dataDF = dataDF[['index', 'salary', 'bonus']].sort_values(by='salary', ascending=False)
+dataDF = dataDF[['index', 'salary', 'bonus']].sort_values(by='salary',\
+                                                                           ascending=False)
 print dataDF
 
 # Ploting Begins

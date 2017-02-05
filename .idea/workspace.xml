@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ca5a01-e059-4510-be5f-81e713a3baea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outliers/feature_format.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Explore Enron Data/final_project_dataset.pkl" afterPath="$PROJECT_DIR$/final_project_dataset.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clustering/clusters.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clustering/clusters3.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clustering/feature_format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clustering/k_means_cluster.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outliers/enron_outliers.py" afterPath="$PROJECT_DIR$/Outliers/enron_outliers.py" />
     </list>
@@ -24,7 +26,20 @@
     <favorites_list name="Udacity_ML_2429" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="enron_outliers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Outliers/enron_outliers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="e#19#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +87,7 @@
         <option value="$PROJECT_DIR$/Outliers/outlier_removal_regression.py" />
         <option value="$PROJECT_DIR$/Outliers/outlier_cleaner.py" />
         <option value="$PROJECT_DIR$/Outliers/feature_format.py" />
+        <option value="$PROJECT_DIR$/Clustering/k_means_cluster.py" />
         <option value="$PROJECT_DIR$/Outliers/enron_outliers.py" />
       </list>
     </option>
@@ -134,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Explore Enron Data" />
+              <option name="myItemId" value="Clustering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -152,31 +168,14 @@
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\Clustering" />
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\Outliers" />
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\Decision Trees\DT Mini Project" />
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\Decision Trees" />
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\SVM\SVM Mini Project" />
-      <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\SVM" />
     </key>
   </component>
   <component name="RunManager" selected="Python.enron_outliers">
-    <configuration default="false" name="explore_enron_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Explore Enron Data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Udacity_ML_2429" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Explore Enron Data/explore_enron_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="finance_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,6 +240,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Udacity_ML_2429" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Outliers/enron_outliers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="k_means_cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Udacity_ML_2429" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clustering/k_means_cluster.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -380,19 +396,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.explore_enron_data" />
-      <item index="1" class="java.lang.String" itemvalue="Python.finance_regression" />
-      <item index="2" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
-      <item index="4" class="java.lang.String" itemvalue="Python.enron_outliers" />
+      <item index="0" class="java.lang.String" itemvalue="Python.finance_regression" />
+      <item index="1" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
+      <item index="3" class="java.lang.String" itemvalue="Python.enron_outliers" />
+      <item index="4" class="java.lang.String" itemvalue="Python.k_means_cluster" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.enron_outliers" />
-        <item index="1" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.finance_regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.explore_enron_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.k_means_cluster" />
+        <item index="2" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
+        <item index="4" class="java.lang.String" itemvalue="Python.finance_regression" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486003113994</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Post Outliers Mini Project">
+      <created>1486332286570</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1486332286570</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,7 +535,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -537,7 +560,8 @@
     <MESSAGE value="firstQuiz" />
     <MESSAGE value="Post NB Mini Project" />
     <MESSAGE value="Post SVM Mini Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post SVM Mini Project" />
+    <MESSAGE value="Post Outliers Mini Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post Outliers Mini Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,8 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class_vis.py" />
-    <entry file="file://$PROJECT_DIR$/studentMain.py" />
     <entry file="file://$PROJECT_DIR$/Naive Bayes/NB Mini Project/importThings.py" />
     <entry file="file://$PROJECT_DIR$/../ML_Master_ud120-projects-master/tools/startup.py" />
     <entry file="file://$PROJECT_DIR$/../ML_Master_ud120-projects-master/naive_bayes/nb_author_id.py" />
@@ -819,10 +841,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clustering/feature_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clustering/k_means_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="e#86#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Outliers/enron_outliers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="e#19#32#0" expanded="true" />
           </folding>
