@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ca5a01-e059-4510-be5f-81e713a3baea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Text Learning/from_chris.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Text Learning/from_sara.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Text Learning/test_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Text Learning/vectorize_text.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minorQuizes/rescale.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minorQuizes/stopwords.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clustering/feature_format.py" afterPath="$PROJECT_DIR$/Clustering/feature_format.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clustering/k_means_cluster.py" afterPath="$PROJECT_DIR$/Clustering/k_means_cluster.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Outliers/enron_outliers.py" afterPath="$PROJECT_DIR$/Outliers/enron_outliers.py" />
     </list>
     <ignored path="Udacity_ML_2429.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,6 +74,7 @@
         <option value="$PROJECT_DIR$/Clustering/feature_format.py" />
         <option value="$PROJECT_DIR$/Clustering/k_means_cluster.py" />
         <option value="$PROJECT_DIR$/Outliers/enron_outliers.py" />
+        <option value="$PROJECT_DIR$/minorQuizes/stopwords.py" />
       </list>
     </option>
   </component>
@@ -119,6 +113,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Udacity_ML_2429" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Udacity_ML_2429" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minorQuizes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -139,7 +147,7 @@
       <recent name="C:\Users\japau\Google Drive\Udacity\Udacity_ML_2429\SVM\SVM Mini Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.enron_outliers">
+  <component name="RunManager" selected="Python.stopwords">
     <configuration default="false" name="outlier_removal_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,23 +161,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Udacity_ML_2429" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Outliers/outlier_removal_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="outlier_cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Outliers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Udacity_ML_2429" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Outliers/outlier_cleaner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -221,6 +212,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Udacity_ML_2429" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minorQuizes/rescale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stopwords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/minorQuizes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Udacity_ML_2429" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minorQuizes/stopwords.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -361,18 +369,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
-      <item index="2" class="java.lang.String" itemvalue="Python.enron_outliers" />
-      <item index="3" class="java.lang.String" itemvalue="Python.k_means_cluster" />
-      <item index="4" class="java.lang.String" itemvalue="Python.rescale" />
+      <item index="1" class="java.lang.String" itemvalue="Python.enron_outliers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.k_means_cluster" />
+      <item index="3" class="java.lang.String" itemvalue="Python.rescale" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stopwords" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.enron_outliers" />
-        <item index="1" class="java.lang.String" itemvalue="Python.rescale" />
-        <item index="2" class="java.lang.String" itemvalue="Python.k_means_cluster" />
-        <item index="3" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.outlier_cleaner" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stopwords" />
+        <item index="1" class="java.lang.String" itemvalue="Python.enron_outliers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.rescale" />
+        <item index="3" class="java.lang.String" itemvalue="Python.k_means_cluster" />
+        <item index="4" class="java.lang.String" itemvalue="Python.outlier_removal_regression" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486334869842</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Finished Clustering">
+      <created>1486522155198</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1486522155198</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -530,6 +545,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -556,7 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ML_Master_ud120-projects-master/tools/startup.py" />
     <entry file="file://$PROJECT_DIR$/../ML_Master_ud120-projects-master/naive_bayes/nb_author_id.py" />
     <entry file="file://$PROJECT_DIR$/Naive Bayes/NB Mini Project/email_authors.pkl">
       <provider selected="true" editor-type-id="text-editor">
@@ -840,7 +872,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
-            <element signature="e#19#32#0" expanded="true" />
+            <element signature="e#19#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -850,8 +882,16 @@
         <state relative-caret-position="374">
           <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#86#99#0" expanded="true" />
+            <element signature="e#86#99#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minorQuizes/stopwords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
