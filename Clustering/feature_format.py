@@ -98,7 +98,7 @@ def featureFormat(dictionary, features, remove_NaN=True, remove_all_zeroes=True,
                 append = False
         # Append the data point if flagged for addition.
         if append:
-            return_list.append( np.array(tmp_list) )
+            return_list.append(np.array(tmp_list))
 
     return np.array(return_list)
 

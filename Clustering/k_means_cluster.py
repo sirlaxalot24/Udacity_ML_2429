@@ -6,6 +6,7 @@
 
 
 import pickle
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from feature_format import featureFormat, targetFeatureSplit
@@ -21,7 +22,7 @@ def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature
     # drawing more than five clusters
     colors = ["b", "c", "k", "m", "g"]
     for ii, pp in enumerate(pred):
-        plt.scatter(features[ii][0], features[ii][1], color = colors[pred[ii]])
+        plt.scatter(features[ii][0], features[ii][1], color=colors[pred[ii]])
 
     # if you like, place red stars over points that are POIs (just for funsies)
     if mark_poi:
@@ -37,6 +38,9 @@ def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature
 data_dict = pickle.load(open(pklFilePath + pklFile, "r"))
 # there's an outlier--remove it!
 data_dict.pop("TOTAL", 0)
+
+
+
 
 
 # the input features we want to use
