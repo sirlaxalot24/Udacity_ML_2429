@@ -1,3 +1,5 @@
 from nltk.corpus import stopwords
+from pprint import pprint as pp
 
-print len(stopwords.words('english'))
+
+pp(stopwords.words('english'))
