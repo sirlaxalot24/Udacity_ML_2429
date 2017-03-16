@@ -21,12 +21,12 @@ def parseOutText(f):
 
     # split off metadata
     content = all_text.split("X-FileName:")
-    words = ""
+    words = " "
     if len(content) > 1:
         # remove punctuation
         text_string = content[1].translate(string.maketrans("", ""), string.punctuation)
         text_string = text_string.split()
-        stemmer = SnowballStemmer("english", ignore_stopwords=True)
+        stemmer = SnowballStemmer("english")
         words = [stemmer.stem(s) for s in text_string]
         words = " ".join(words)
 
