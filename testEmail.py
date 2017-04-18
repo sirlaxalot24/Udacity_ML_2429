@@ -1,4 +1,3 @@
-import pandas as pd
+import sys
 
-
-email =
+print sys.version

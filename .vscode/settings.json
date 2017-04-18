@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:/Users/japau/Anaconda3/envs/udacityPY/python",
+    "python.pythonPath": "C:/Users/jpaukovits/AppData/Local/Continuum/Anaconda3/envs/UdacityPy/python",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10,
     "python.linting.pep8Enabled": true,
